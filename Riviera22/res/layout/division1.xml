@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+      
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="120dp"
+     android:background="@drawable/maintheme"
+      
+    >
+     <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/division1_cultural"
+        android:background="@drawable/culturals"
+        />
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+         />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/division1_sports"
+         android:background="@drawable/sports"
+       
+        />
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+         />
+   	<ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+         android:background="@drawable/workshop"
+       
+        android:id="@+id/division1_workshop"
+        />
+   
+
+</LinearLayout>
+</ScrollView>

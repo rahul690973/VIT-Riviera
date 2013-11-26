@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+     >
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/hello_world" 
+        android:id="@+id/main_click"
+        android:background="@drawable/home"
+    
+        />
+    <TextView
+          android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+      android:id="@+id/textv"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/main_click"
+        android:id="@+id/main_information"
+        />
+ <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        
+        android:layout_above="@+id/textv"
+        android:id="@+id/main_aboutus"
+        android:background="@drawable/about"
+    
+        />
+ 
+ 
+
+</RelativeLayout>

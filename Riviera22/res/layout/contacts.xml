@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+     >
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="Event Cordinators"
+       android:clickable="false"
+       android:textSize="25dp"
+       android:textStyle="bold"
+       android:gravity="center"
+        />
+ 
+     <ListView
+         android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+    
+            android:id="@+id/contactslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:divider="#000000"
+           android:dividerHeight="2dp"
+           android:background="@drawable/purple"
+           android:cacheColorHint="@android:color/transparent"
+            
+             
+            android:scrollbars="none">
+    </ListView>
+ 
+    
+
+</LinearLayout>

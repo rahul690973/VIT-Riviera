@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resto_them"
+     >
+       <TextView
+                 android:id="@+id/r_name"
+                 android:layout_width="200px"
+                 android:layout_height="60px"
+                 android:padding="5dp"
+                 android:textSize="35px"
+                 android:textColor="#FFF"/>
+ <TextView
+                 android:text="Location"
+                 android:layout_width="200px"
+                 android:layout_height="60px"
+                 android:padding="5dp"
+                 android:textSize="35px"
+                 android:textColor="#FFF"/>
+
+        <TextView
+                 android:id="@+id/r_loc"
+                 android:layout_width="200px"
+                 android:layout_height="60px"
+                 android:padding="5dp"
+                 android:textSize="35px"
+                 android:textColor="#FFF"/>
+
+  <TextView
+                 android:text="Speciality"
+                 android:layout_width="200px"
+                 android:layout_height="60px"
+                 android:padding="5dp"
+                 android:textSize="35px"
+                 android:textColor="#FFF"/>
+
+         <TextView
+                 android:id="@+id/r_spc"
+                 android:layout_width="200px"
+                 android:layout_height="60px"
+                 android:padding="5dp"
+                 android:textSize="35px"
+                 android:textColor="#FFF"/>
+
+  
+    
+    
+
+</LinearLayout>

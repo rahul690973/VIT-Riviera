@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+     >
+    
+     
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+
+	android:paddingTop="20dp"
+	android:paddingLeft="20dp"
+	>
+	<TableRow>
+<TextView
+android:text="First Prize"
+android:width ="150px"
+android:textSize="15dp"
+
+/>
+<TextView
+android:text="1000"
+android:width="150px" 
+android:layout_height="wrap_content"
+android:paddingBottom="5px"
+android:id="@+id/prize1"
+/>
+</TableRow>
+<TextView
+    android:textSize="15dp"
+android:height="15dp"
+android:width ="150px"/>
+	
+	<TableRow>
+<TextView
+android:text="Second Prize"
+android:textSize="15dp"
+android:width ="150px"/>
+<TextView
+android:text="1000"
+android:width="150px"
+android:id="@+id/prize2"
+ />
+</TableRow>
+<TextView
+    android:textSize="15dp"
+android:height="15dp"
+android:width ="150px"/>
+	
+	<TableRow>
+<TextView
+    android:textSize="15dp"
+android:text="Third Prize"
+android:width ="150px"/>
+<TextView
+android:text="1000"
+android:width="150px" 
+android:id="@+id/prize3"
+/>
+</TableRow>
+<TextView
+    android:textSize="15dp"
+android:height="15dp"
+android:width ="150px"/>
+	
+	<TableRow>
+<TextView
+    android:textSize="15dp"
+android:text="Fourth Prize"
+android:width ="150px"/>
+<TextView
+android:text="-"
+android:width="150px"
+android:id="@+id/prize4"
+ />
+</TableRow>
+	
+
+</TableLayout>
+
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:text="Style Check" 
+        android:id="@+id/showevent3"
+        android:layout_gravity="center"
+        android:textSize="20px" />
+      
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_below="@+id/showevent3"
+    android:paddingTop="50dp"
+    >
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Judes decision is final and no one can make a cse against them" 
+        android:textSize="20px" />
+     
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Judes decision is final and no one can make a cse against them" 
+        android:textSize="20px" />
+    
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Judes decision is final and no one can make a cse against them" 
+        android:textSize="20px" />
+    
+     
+    
+    </LinearLayout>
+      
+     
+      <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:text="Contacts" 
+        android:layout_gravity="center"
+        android:id="@+id/contacts3"
+        android:textSize="20px" />
+    
+
+</RelativeLayout>

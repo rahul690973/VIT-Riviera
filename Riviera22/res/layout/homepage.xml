@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/maintheme"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="100dp"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+        
+    
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+		android:background="@drawable/events"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/homepage_events"
+        />
+   
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text=" Registered Events" 
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/homepage_reg_events"
+        android:background="@drawable/myevents"
+        />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/homepage_proshows"
+        android:background="@drawable/proshows"
+        />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/homepage_vit"
+        android:background="@drawable/vit"
+        />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/homepage_restaurants"
+        android:background="@drawable/restaurants"
+        />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20px"
+        android:id="@+id/homepage_contacts"
+        android:background="@drawable/contacts"
+        />
+    </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

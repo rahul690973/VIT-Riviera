@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_theme"
+    android:gravity="fill"
+    android:orientation="vertical" >
+    
+      <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="60dp"
+     >  
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:id="@+id/heading1"
+    android:paddingTop="10dp"
+    >
+    
+    <TextView
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="40dp"
+android:id="@+id/sports_name"
+android:paddingLeft="20dp"
+android:paddingRight="60dp"
+android:textColor="#663300"
+/>
+    
+     <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+    	android:id="@+id/sports_add"
+    	android:background="@drawable/sa"
+    	android:layout_alignParentRight="true"
+        />
+      </RelativeLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_below="@+id/heading1"
+    android:id="@+id/heading2"
+    
+    android:paddingLeft="10dp"
+    >
+    
+          <TextView
+android:text="VENUE:  "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="16dp"
+android:id="@+id/sports_venue"
+android:textStyle="bold"
+android:textColor="#663300"
+
+/>  
+ <TextView
+android:text="DATE:  "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="16dp"
+android:id="@+id/sports_date"
+android:textStyle="bold"
+android:textColor="#663300"
+
+/>    
+<TextView
+android:text="Time:  "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="1dp"
+android:id="@+id/sports_time"
+/>        
+          
+          
+        
+</LinearLayout>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/heading2"
+    android:orientation="vertical"
+    android:paddingTop="30dp" >
+
+    <Button
+        
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    	android:id="@+id/rules"
+    	android:paddingLeft="20dp"
+    	android:background="@drawable/sabout"
+        />
+     <TextView
+        android:layout_width="25dp"
+        android:layout_height="fill_parent"
+    	
+        />
+    
+    
+            <Button
+          
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/prize"
+    	android:paddingLeft="20dp"
+        android:background="@drawable/sprize"
+       
+        />
+             <TextView
+        android:layout_width="25dp"
+        android:layout_height="fill_parent"
+    	
+        />
+    
+        
+                <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    	android:id="@+id/direction"
+  
+    	android:paddingLeft="20dp"
+        android:background="@drawable/sdirection"
+       
+        />
+            
+       
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+                <Button
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:id="@+id/sports_contact"
+    	android:layout_alignParentBottom="true"
+    	android:background="@drawable/sc"
+        />
+
+</RelativeLayout>

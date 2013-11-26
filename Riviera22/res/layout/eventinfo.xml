@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cultural_theme"
+     >
+      <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="60dp"
+     >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:paddingLeft="20dp"
+    android:id="@+id/events_heading1"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    >
+    
+    <TextView
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="40dp"
+android:id="@+id/events_name"
+android:paddingRight="60dp"
+
+/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+    	android:id="@+id/events_add"
+    	android:background="@drawable/ca"
+    	android:layout_alignParentRight="true"
+        />
+    
+      </RelativeLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:orientation="vertical" 
+    android:layout_below="@+id/events_heading1"
+    android:id="@+id/events_heading2"
+   
+    >
+    
+   <TextView
+android:text="VENUE: "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="14dp"
+android:id="@+id/events_venue"
+android:textStyle="bold"
+/>         
+       
+    
+ <TextView
+android:text="DATE: "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="14dp"
+android:id="@+id/events_date"
+android:textStyle="bold"
+
+/>    
+<TextView
+android:text="TIME : "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="14dp"
+android:id="@+id/events_time"
+android:textStyle="bold"
+
+/> 
+
+    <TextView
+       
+android:text="REGISTRATION FEES : "
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="12dp"
+android:id="@+id/events_fees"
+android:textStyle="bold"
+
+/> 
+          
+          
+        
+</LinearLayout>
+
+   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+	android:layout_below="@+id/events_heading2"
+	android:orientation="vertical" >
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    	android:id="@+id/events_about"
+    	android:background="@drawable/cabout"
+        />
+     <TextView
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+    	
+        />
+        <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    	android:id="@+id/events_winner"
+    	android:background="@drawable/cwinner"
+        />
+         <TextView
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+    	
+        />
+    
+    
+            <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/events_prize"
+    	android:background="@drawable/cprize"
+        />
+             <TextView
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+    	
+        />
+    
+        
+                <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    	android:id="@+id/events_direction"
+    	android:background="@drawable/cdirection"
+        />
+            
+       
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+<Button
+    	android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:id="@+id/events_contacts"
+    	android:text=""
+    	android:background="@drawable/cc"
+        />
+ 
+</RelativeLayout>

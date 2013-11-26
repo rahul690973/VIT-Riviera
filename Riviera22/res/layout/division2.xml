@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/maintheme"
+     >
+    
+     
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingLeft="30dp"
+     >
+      <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   
+     >
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   
+     >
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+  
+    
+     <Button
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:text="Premium Events" 
+        android:layout_gravity="center"
+        android:textSize="1dp"
+        android:onClick="OnClick"
+        android:background="@drawable/premium"
+        />
+    <TextView 
+         android:layout_height="fill_parent"
+        android:layout_width="40dp"
+        />
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Fun Arena" 
+        android:layout_gravity="center"
+        android:textSize="1px"
+        android:onClick="OnClick"
+        android:background="@drawable/funarena"
+        />
+       
+    </LinearLayout>
+       <TextView 
+         android:layout_height="20dp"
+        android:layout_width="40dp"
+        />
+ 
+       
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+  
+               <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="WordsWorth" 
+        android:layout_gravity="center"
+        android:textSize="1px"
+        android:onClick="OnClick"
+        android:background="@drawable/wordsworth"
+        />
+   
+     <TextView 
+         android:layout_height="fill_parent"
+        android:layout_width="40dp"
+        />
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Brush it Up" 
+        android:layout_gravity="center"
+        android:textSize="1px"
+        android:onClick="OnClick"
+        android:background="@drawable/brush"
+        />
+  
+    
+       
+       </LinearLayout>
+            <TextView 
+         android:layout_height="20dp"
+        android:layout_width="40dp"
+        />
+ 
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+  
+       <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Mixed Bag" 
+        android:layout_gravity="center"
+        android:textSize="1px"
+        android:onClick="OnClick"
+        android:background="@drawable/mixbox"
+        />  
+    <TextView 
+         android:layout_height="fill_parent"
+        android:layout_width="40dp"
+        />
+       <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Inquizitive" 
+        android:layout_gravity="center"
+        android:textSize="1px"
+        android:onClick="OnClick"
+        android:background="@drawable/quiz"
+        />
+    </LinearLayout>
+       <TextView 
+         android:layout_height="20dp"
+        android:layout_width="40dp"
+        />
+ 
+       <TextView 
+         android:layout_height="20dp"
+        android:layout_width="40dp"
+        />
+ 
+     <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Got the Moves" 
+        android:layout_gravity="center"
+        android:textSize="1px"
+        android:onClick="OnClick"
+        android:background="@drawable/dance"
+        />
+      
+       
+    </LinearLayout>
+   
+   </ScrollView> 
+   </LinearLayout>
+   
+</RelativeLayout>

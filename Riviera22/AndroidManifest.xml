@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vit.riviera"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> 
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+              
+        <activity
+            android:name="vit.riviera.MainActivity"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity
+            android:name="vit.riviera.vitmap"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+           
+        <activity
+            android:name="vit.riviera.LocationActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+          
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="vit.riviera.Homepage"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="vit.riviera.Restaurant"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          
+               <activity
+            android:name="vit.riviera.Restaurant_List"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                
+          
+               <activity
+            android:name="vit.riviera.aboutus"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+               
+               <activity
+            android:name="vit.riviera.sponsor"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+               <activity
+            android:name="vit.riviera.contactprson"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+               
+               <activity
+            android:name="vit.riviera.proshows"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+           
+         <activity
+            android:name="vit.riviera.Sports_display"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="vit.riviera.Workshop_display"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+              <activity
+            android:name="vit.riviera.Workshop"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+           
+        
+             <activity
+            android:name="vit.riviera.Sports"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name="vit.riviera.Prize_sports"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="vit.riviera.Sports_about"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                
+             
+          
+        
+           <activity
+            android:name="vit.riviera.RegisteredEvents"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          
+        
+        <activity
+            android:name="vit.riviera.Division2"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="vit.riviera.Division1"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity
+            android:name="vit.riviera.Description"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="vit.riviera.Rules"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+         
+          <activity
+            android:name="vit.riviera.Prize"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+         
+           <activity
+            android:name="vit.riviera.Venue"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+        
+        
+         <activity
+            android:name="vit.riviera.EventInfo"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="vit.riviera.List"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity
+            android:name="vit.riviera.Res_about"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+<activity
+            android:name="vit.riviera.MapActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+             
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+
+
+         
+    </application>
+
+</manifest>

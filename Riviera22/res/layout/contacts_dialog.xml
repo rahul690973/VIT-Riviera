@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content">
+
+     <TableLayout
+         android:id="@+id/events_tableLayout1"
+         android:layout_width="match_parent"
+         android:layout_height="60dp" 
+         android:paddingLeft="10dp"
+         >
+
+         <TableRow >
+
+             <TextView
+                 android:id="@+id/events_headline"
+                 android:layout_width="20px"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.8"
+                
+                 android:textSize="20dp"
+                 android:textColor="#ffffff"/>
+
+           
+        
+         </TableRow>
+          
+         <TableRow>
+             <TextView
+                android:id="@+id/events_subline"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="#ffffff"
+                  android:textSize="16dp"
+                
+                />
+             
+             </TableRow>
+     </TableLayout>
+ </LinearLayout>

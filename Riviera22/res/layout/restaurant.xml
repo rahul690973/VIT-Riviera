@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/resto_them1">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resto_them1">
+   
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="132dp"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:gravity="center_horizontal" >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:text="Steamy N.veg"
+            android:textColor="#000033"
+            android:textSize="32dp"
+            android:onClick="true"
+           android:id="@+id/steamy_non_veg"
+           />
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal" >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:text="Fine Dine"
+            android:textColor="#000000"
+            android:textSize="32dp"
+            android:onClick="true"
+             android:id="@+id/finedine"/>
+    </LinearLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal" >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:text="Cafetaria"
+            android:textColor="#000000"
+            android:textSize="32dp"
+            android:onClick="true"
+             android:id="@+id/cafetaria"/>
+    </LinearLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal" >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:text="Dhabas"
+            android:textColor="#000000"
+            android:textSize="32dp"
+            android:onClick="true"
+             android:id="@+id/dhabas"/>
+            
+    </LinearLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal" >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:text="Snacks"
+            android:textColor="#000000"
+            android:textSize="32dp"
+            android:onClick="true"
+            android:id="@+id/snacks"/>
+    </LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>
+</ScrollView>
